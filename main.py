@@ -49,13 +49,6 @@ if __name__ == '__main__':
         else:
             period = str(period)    # Convert str to int
 
-        d1 = datetime.date.today()
-        d2 = (d1 + datetime.timedelta(period))
-
-
-        startDate = d1.strftime("%Y-%m-%d")
-        endDate = d2.strftime("%Y-%m-%d")
-
     else:
         print("Invalid argument")
         exit(0)
